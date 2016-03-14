@@ -1,9 +1,9 @@
 # from nested folder . module py 	import the function
-from project.project_module import project_module
+from project.project_pip_module import projects
 
 if __name__== '__main__':
 	print __name__
-	project_module()
+	projects()
 
 # calling the function
 

@@ -22,7 +22,7 @@ setup(
    packages = ["project_module"],
    entry_points = {
   #project_pip(dont know) = nested folder.module py: function called
-       "console_scripts": ['project_pip = project.project_module:project_module']
+       "console_scripts": ['project_pip = project.project_module:projects']
        },
    version = version,
    description = "Python command line html creator",
@@ -31,5 +31,3 @@ setup(
    author_email = "akulais@gmail.com",
    url = "https://github.com/akulais/project.git"
 )
-
-#
